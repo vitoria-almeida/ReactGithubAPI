@@ -8,7 +8,7 @@ function Button({user}) {
     function handleSearch() {     
         axios.get(`https://api.github.com/users/${user}`)
         .then(res => {
-            const data = res.data     
+            // const data = res.data     
             // paragrafo.textContent = data.name
             // document.getElementById('image').src = data.avatar_url
             // document.getElementById('bio').textContent = data.bio
