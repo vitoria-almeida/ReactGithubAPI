@@ -1,8 +1,8 @@
 import React from 'react'
+import { useState } from 'react'
+
 import Button from '../componentsForms/button';
 import Input from '../componentsForms/input';
-
-import { useState } from 'react'
 
 import * as STYLE from '../repo/styled'
 

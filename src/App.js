@@ -1,11 +1,15 @@
 import React from 'react';
 import Routess from './routes'
 
+import * as STYLE from './repo/styled'
 
-function App() {
+function App(props) {
   return (
-    <Routess />
-  ); 
+    <>
+      <STYLE.Title>{props.title}</STYLE.Title>
+      <Routess />
+    </>
+  );
 }
 
 export default App;
